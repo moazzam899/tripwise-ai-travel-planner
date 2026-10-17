@@ -50,7 +50,7 @@ const [hotelsError, setHotelsError] = useState('')
 useEffect(() => {
   async function checkBackend() {
     try {
-      const response = await fetch('http://localhost:5000/api/health')
+      const response = await fetch('https://myaitripwise-api.onrender.com/api/health')
       const data = await response.json()
 
       setBackendStatus(data.message)
@@ -125,7 +125,7 @@ async function handleSubmit(event) {
   setItinerary('')
 
   try {
-    const response = await fetch('http://localhost:5000/api/trips/plan', {
+    const response = await fetch('https://myaitripwise-api.onrender.com/api/trips/plan', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -189,7 +189,7 @@ const handleFindPlaces = async () => {
   setPlaces('')
 
   try {
-    const response = await fetch('http://localhost:5000/api/trips/places', {
+    const response = await fetch('https://myaitripwise-api.onrender.com/api/trips/places', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -228,7 +228,7 @@ const handleFindHotels = async () => {
   setHotels('')
 
   try {
-    const response = await fetch('http://localhost:5000/api/trips/hotels', {
+    const response = await fetch('https://myaitripwise-api.onrender.com/api/trips/hotels', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -309,7 +309,7 @@ const tripSummary = [
   : 'bg-[#fff8ed] text-[#172554]'
   }`}
 >
-  
+
 <nav className={`flex items-center justify-between border-b px-5 py-4 md:px-12 transition-colors duration-300 ${
   darkMode
     ? 'border-slate-700 bg-slate-900 text-[#fff8ed]'
