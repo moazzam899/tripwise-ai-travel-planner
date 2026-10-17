@@ -4,13 +4,14 @@
 TripWise is an AI-powered travel planning web application that helps users explore destinations, discover places to visit, and get personalized hotel recommendations based on their travel preferences.
 
 
-## Live Demo
+## 🌐 Live Demo
 
-Coming soon — deployment in progress.
+**Try TripWise here:** [Open TripWise](https://myaitripwise.vercel.app/)
 
-<!-- After deployment, replace the line above with:
-[Visit TripWise](YOUR_LIVE_WEBSITE_URL)
--->
+## 📂 GitHub Repository
+
+[View Source Code](https://github.com/moazzam899/tripwise-ai-travel-planner)
+
 
 
 ## Features
