@@ -309,11 +309,7 @@ const tripSummary = [
   : 'bg-[#fff8ed] text-[#172554]'
   }`}
 >
-  <div className="mx-auto max-w-7xl px-6 pt-4">
-  <p className="text-sm font-medium text-teal-600">
-    API Status: {backendStatus}
-  </p>
-</div>
+  
 <nav className={`flex items-center justify-between border-b px-5 py-4 md:px-12 transition-colors duration-300 ${
   darkMode
     ? 'border-slate-700 bg-slate-900 text-[#fff8ed]'
