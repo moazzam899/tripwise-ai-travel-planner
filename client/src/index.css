@@ -1,0 +1,72 @@
+
+@import "tailwindcss";
+
+/* TripWise — Sunset Escape Theme */
+:root {
+  --sunset-navy: #172554;
+  --sunset-coral: #fb7185;
+  --sunset-gold: #f4c76b;
+  --sunset-cream: #fff8ed;
+
+  --page-bg: #fff8ed;
+  --surface-bg: #ffffff;
+  --text-primary: #172554;
+  --text-secondary: #64748b;
+  --border-color: #e7dfd3;
+  --button-text: #172554;
+}
+
+.dark {
+  --page-bg: #0f172a;
+  --surface-bg: #172554;
+  --text-primary: #fff8ed;
+  --text-secondary: #cbd5e1;
+  --border-color: #334155;
+  --button-text: #172554;
+}
+
+/* Apply the theme to the page */
+body {
+  background-color: var(--page-bg);
+  color: var(--text-primary);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Reusable theme classes */
+.tw-card {
+  background-color: var(--surface-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+}
+
+.tw-muted {
+  color: var(--text-secondary);
+}
+
+.tw-button {
+  background-color: var(--sunset-coral);
+  color: var(--button-text);
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.tw-button:hover {
+  filter: brightness(0.96);
+}
+
+.tw-button:active {
+  transform: scale(0.98);
+}
+
+.tw-button-secondary {
+  background-color: var(--sunset-navy);
+  color: var(--sunset-cream);
+  border-radius: 0.75rem;
+  font-weight: 600;
+}
+
+.tw-accent {
+  color: var(--sunset-coral);
+}

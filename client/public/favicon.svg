@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FB7185"/>
+      <stop offset="100%" stop-color="#F4C76B"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#172554"/>
+  <circle cx="43" cy="20" r="9" fill="#F4C76B"/>
+  <path d="M8 42 25 20 39 37 47 29 59 44V54H8Z" fill="#FB7185"/>
+  <path d="M8 48 23 35 34 45 43 38 59 49V56H8Z" fill="#FFF8ED"/>
+  <path d="M32 58C27 50 17 40 17 29a15 15 0 1 1 30 0c0 11-10 21-15 29Z" fill="url(#sunset)" stroke="#FFF8ED" stroke-width="2"/>
+  <circle cx="32" cy="29" r="9" fill="#172554"/>
+  <path d="m27 29 5-5 5 5-5 5Z" fill="#F4C76B"/>
+</svg>
